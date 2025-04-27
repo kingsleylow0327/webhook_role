@@ -1,0 +1,9 @@
+venv
+
+.env
+
+/config/*
+
+# JetBrains
+.idea
+__pycache__
