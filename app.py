@@ -47,7 +47,9 @@ async def on_member_join(member):
 
         # Assign role based on invite code
         invite_to_role = {
-            "GPVmCWqBWb": "80potato" # https://discord.gg/GPVmCWqBWb
+            "GPVmCWqBWb": "80potato", # https://discord.gg/GPVmCWqBWb
+            "BJtd5sk2xg": "TBC", # https://discord.gg/BJtd5sk2xg
+            "GDgF39RBaE": "BCC" # https://discord.gg/GDgF39RBaE
         }
 
         role_name = invite_to_role.get(used_invite.code)
